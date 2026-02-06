@@ -1,5 +1,0 @@
-This incident involved a simulated exploitation of a Samba vulnerability on a test system within a controlled lab environment. Detection was achieved through Wazuh alerts,
-followed by manual triage and validation using correlated logs and threat intelligence. The affected system was immediately isolated to prevent further compromise. 
-No evidence of data exfiltration or persistence mechanisms was identified. This exercise demonstrated the importance of layered monitoring, timely alert escalation, and 
-proper incident documentation. Recommendations include regular patching of exposed services, continuous monitoring of authentication events, and improved threat intelligence
-integration to enhance early detection capabilities.
