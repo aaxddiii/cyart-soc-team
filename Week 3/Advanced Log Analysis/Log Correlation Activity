@@ -1,0 +1,17 @@
+Log Correlation Activity
+
+Objective:
+To correlate authentication failure events with suspicious outbound network activity to detect possible brute-force or compromised account behavior.
+
+Process Followed:
+Imported Windows authentication logs and firewall logs into Elastic Security.
+Focused on Event ID 4625 (Failed Login).
+Matched timestamps with outbound DNS and TCP traffic.
+Observed repeated login failures followed by external DNS queries.
+
+Correlation Table
+Timestamp	           Event ID	    Source IP	   Destination IP	           Notes
+2025-08-18 12:00:00	   4625	    192.168.1.100	    8.8.8.8	      Suspicious DNS request
+2025-08-18 12:01:10	   4625	    192.168.1.100    	8.8.4.4	      Repeated outbound traffic
+ 
+Observation: Repeated authentication failures followed by external DNS traffic may indicate credential testing or malware beaconing.
