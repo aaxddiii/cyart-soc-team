@@ -1,0 +1,13 @@
+Objective:
+To simulate and detect brute-force login attempts using Windows Security logs.
+
+Process Followed:
+Multiple failed login attempts were generated on a Windows virtual machine using incorrect passwords.
+Windows Event Viewer was filtered for Event ID 4625.
+
+Events were reviewed to identify patterns such as repeated failures from the same source.
+
+Filtered events were exported to CSV format for documentation and analysis.
+
+Result:
+The exported log data clearly showed repeated failed login attempts, confirming brute-force behavior patterns.
