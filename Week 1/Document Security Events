@@ -1,0 +1,12 @@
+Objective:
+To practice structured documentation of security incidents, which is a critical responsibility of SOC analysts.
+
+Process Followed:
+A simple event documentation template was created to ensure consistency and clarity when recording security events.
+
+Event Documentation
+   Date/Time	        Source IP	  Event ID	             Description	                                Action Taken
+2025-08-18 11:30	  192.168.1.10	  4625	  Multiple failed login attempts detected	  Event flagged and forwarded for investigation
+
+Purpose:
+This template helps SOC teams track incidents, maintain audit trails, and support escalation or reporting workflows.
