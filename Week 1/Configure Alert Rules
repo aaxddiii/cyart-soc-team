@@ -1,0 +1,12 @@
+Elastic SIEM Alert Rule
+
+Objective:
+To detect brute-force login attempts automatically using alert thresholds.
+
+Rule Configuration:
+Rule Name: Detect 5+ Failed Logins in 5 Minutes
+Index: security-login-*
+Condition: Event count greater than 5 within 5 minutes
+
+Testing Approach:
+Simulated failed SSH login attempts were used to understand how such alerts would trigger in a real environment.
