@@ -1,0 +1,16 @@
+Objective:
+To analyze Windows Security logs in order to detect suspicious authentication activity and system changes.
+
+Process Followed:
+Windows Event Viewer was used to filter and analyze security-related events. The focus was on identifying failed login attempts and unauthorized service creation, which are common
+indicators of brute-force attacks or persistence techniques.
+
+Event IDs Analyzed:
+Event ID 4625: Failed login attempts
+Event ID 7045: New service creation
+
+By filtering Event ID 4625 in the Security logs, multiple failed login attempts from the same source were observed within a short time frame. 
+This behavior is commonly associated with brute-force or password-guessing attacks.
+
+Observation:
+Repeated authentication failures from a single IP or user account indicate potential brute-force activity and require further investigation or alerting.
