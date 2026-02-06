@@ -1,0 +1,9 @@
+Title: Unauthorized Access on Server-Y
+Detected: 2025-08-18 13:00
+Source IP: 192.168.1.200
+MITRE: T1078
+
+Actions Taken:
+Server isolated
+Credentials flagged
+Escalated to Tier 2
