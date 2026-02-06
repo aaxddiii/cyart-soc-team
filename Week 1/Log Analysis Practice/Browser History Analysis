@@ -1,0 +1,11 @@
+Objective:
+To understand browser artifact analysis and identify potentially malicious URLs accessed by a user.
+
+Process Followed:
+Eric Zimmerman’s browser forensics tools were studied to understand how Chrome history files can be parsed. The focus was on
+identifying suspicious or test URLs that could indicate phishing or malicious browsing activity.
+
+Advanced Task:
+Chrome browser history artifacts were reviewed.
+A test URL such as http://test.com was searched within parsed browser history output.
+The exercise demonstrated how SOC analysts can identify malicious or suspicious browsing behavior during investigations.
