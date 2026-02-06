@@ -1,0 +1,7 @@
+Log Enrichment (GeoIP)
+Enrichment Used: GeoIP plugin in Elastic
+Added country and region fields to IP addresses.
+
+Summary:
+GeoIP enrichment helped add contextual intelligence to raw logs by mapping IP addresses to geographic locations. This reduced investigation time by quickly identifying
+suspicious foreign connections and differentiating internal traffic from external threats.
