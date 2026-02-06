@@ -1,0 +1,13 @@
+Objective:
+To detect repeated SSH authentication failures using Wazuh.
+
+Rule Logic:
+Detect 3 or more failed SSH logins within 2 minutes
+Trigger alert when threshold is exceeded
+
+Testing Method:
+Failed SSH login attempts were simulated using incorrect credentials (ssh user@192.168.1.x). Alert behavior and effectiveness were 
+reviewed conceptually using Wazuh documentation and sample outputs.
+
+Alert Validation:
+The rule logic was documented and evaluated based on its ability to reduce false positives while detecting real brute-force attempts.
