@@ -1,0 +1,11 @@
+Steps Followed:
+Connected Wazuh to AlienVault OTX.
+Synced pulse feeds containing malicious IP indicators.
+Tested with a simulated IP.
+
+Alert Enrichment Table
+Alert ID	      IP	       Reputation	              Notes
+003	      192.168.1.100	 Malicious (OTX)	 Linked to known C2 infra
+
+Observation:
+OTX enrichment provided immediate risk context, allowing faster escalation decisions.
