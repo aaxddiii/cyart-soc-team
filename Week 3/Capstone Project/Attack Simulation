@@ -1,0 +1,13 @@
+Attack Simulation
+Target: Metasploitable2
+Exploit Used: Samba usermap script
+Framework: Metasploit
+
+Detection & Triage
+     Timestamp	       Source IP	  Alert  Description	 MITRE
+2025-08-18 14:00:00	 192.168.1.101	Samba    exploit	   T1210
+
+Response and Containment
+Isolated the compromised VM
+Blocked attacker IP using CrowdSec
+Verified containment by failed connectivity tests
