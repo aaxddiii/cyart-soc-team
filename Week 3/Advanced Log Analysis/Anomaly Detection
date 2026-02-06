@@ -1,0 +1,7 @@
+Rule Created (Elastic):
+Trigger condition:
+bytes_out > 1MB within 1 minute
+Tested using a simulated file transfer inside VM.
+
+Result:
+Alert triggered successfully, confirming anomaly detection rule functionality.
