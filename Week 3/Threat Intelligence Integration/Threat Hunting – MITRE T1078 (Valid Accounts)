@@ -1,0 +1,6 @@
+Query Used:
+Filtered logs where user.name != "system"
+
+Summary:
+Multiple successful logins using non-system accounts were detected outside regular working hours. This aligns with MITRE T1078 behavior, indicating possible misuse of valid
+credentials rather than exploitation of vulnerabilities.
