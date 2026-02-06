@@ -1,0 +1,8 @@
+Volatile Data Collection
+Tool: Velociraptor
+Artifact: netstat
+Output: CSV exported successfully
+
+Memory Acquisition
+Artifact: Artifact.Windows.Memory.Acquisition
+Hashing: SHA256
