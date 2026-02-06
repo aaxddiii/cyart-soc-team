@@ -1,0 +1,8 @@
+Incident Type: Unauthorized Access
+Priority: High
+Escalated To: Tier 2 SOC
+
+Escalation Summary
+A high-severity unauthorized access alert was detected on Server-Y originating from IP 192.168.1.200. Logs indicate misuse of valid credentials consistent with MITRE technique T1078.
+Initial containment steps were taken by isolating the affected server. No data exfiltration confirmed at this stage. Due to potential credential compromise and lateral movement risk,
+the incident has been escalated to Tier 2 for deeper investigation and forensic analysis.
