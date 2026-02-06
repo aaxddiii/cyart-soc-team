@@ -1,0 +1,14 @@
+Objective:
+To understand how SOC dashboards provide visibility into security events and trends.
+
+Process Followed:
+Dashboard concepts were studied using Kibana and Grafana examples. The following visualizations were identified as essential for SOC monitoring:
+
+Dashboards Studied
+Top 10 source IP addresses generating alerts
+Frequency of critical security Event IDs
+Authentication failure trends over time
+
+Pre-built dashboards and Sigma detection rule examples were reviewed to understand how detection logic is visualized in real SOC environments.
+Outcome:
+Dashboards enable analysts to quickly identify abnormal activity patterns and prioritize investigations.
