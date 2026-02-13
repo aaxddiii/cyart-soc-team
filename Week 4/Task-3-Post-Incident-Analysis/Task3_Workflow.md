@@ -1,28 +1,18 @@
-# Task 3 – Post-Incident Analysis
+# Task 3 – Post-Incident Analysis and Continuous Improvement
 
-## Incident Overview
-
-A mock phishing incident was used to conduct post-incident analysis. The goal was not forensic depth, but understanding
-**why the incident occurred and how to improve**.
+## Objective
+To analyze a completed security incident, identify root causes, extract lessons learned, and recommend improvements to SOC processes, detection, and response capabilities.
 
 
-## Root Cause Analysis (5 Whys)
-
-The analysis identified user interaction and weak email filtering as primary contributors. This reflects common real-world findings
-rather than technical exploitation.
-
-
-## Metrics Evaluation
-
-- MTTD: 2 hours
-- MTTR: 4 hours
-
-These values were selected to simulate a reasonably functioning SOC while still leaving room for improvement.
+## Incident Reviewed
+Simulated phishing incident previously handled during:
+- Task 2 (SOAR Playbook)
+- Task 4 (Alert Triage & Case Management)
+- Task 7 (Metrics Analysis)
 
 
-## Lessons Learned
-
-The incident highlighted that:
-- User awareness is critical
-- Preventive controls matter as much as detection
-- Metrics help measure SOC maturity, not perfection
+## Post-Incident Activities
+- Root Cause Analysis (5 Whys)
+- Fishbone (Ishikawa) analysis
+- Metrics evaluation (MTTD, MTTR)
+- Lessons learned and improvement planning
