@@ -1,0 +1,19 @@
+# Root Cause Analysis – Task 3
+
+## Incident Type
+Phishing email leading to potential credential compromise.
+
+
+## 5 Whys Analysis
+
+| Question                           | Answer                                  |
+|------------------------------------|-----------------------------------------|
+| Why was the phishing email opened? | User clicked the malicious link         |
+| Why did the user click the link?   | Email appeared legitimate               |
+| Why was the email not blocked?     | Email filtering missed the indicator    |
+| Why did filtering miss it?         | IOC was previously unknown              |
+| Why was the IOC unknown?           | Threat intelligence updates were manual |
+
+
+## Root Cause
+The primary root cause was reliance on manual threat intelligence enrichment, which delayed detection of newly emerging phishing indicators.
