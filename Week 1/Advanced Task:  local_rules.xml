@@ -1,0 +1,14 @@
+<group name="local,authentication,ssh,">
+  <rule id="100200" level="10">
+    <if_matched_sid>5710</if_matched_sid>
+    <same_srcip />
+    <frequency>3</frequency>
+    <timeframe>120</timeframe>
+    <description>
+      SSH brute-force suspicion: 3+ failed logins in 2 minutes (same source IP)
+    </description>
+    <mitre>
+      <id>T1110</id>
+    </mitre>
+  </rule>
+</group>
